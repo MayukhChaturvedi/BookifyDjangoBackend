@@ -1,0 +1,27 @@
+# Core Django and REST framework
+Django==5.0.3
+djangorestframework==3.15.1
+django-environ==0.11.2  # For environment variable management
+
+# MongoDB
+pymongo==4.6.2
+
+# LangChain and Groq
+langchain-core==0.1.52
+langchain-groq==0.1.3
+
+# Sentence Transformers for embeddings
+sentence-transformers==2.6.1
+
+# Pydantic for data validation
+pydantic==2.6.4
+
+# Faker for data generation
+faker==24.4.0
+
+# Logging and utilities
+python-dateutil==2.9.0.post0  # Used by Faker
+six==1.16.0  # Dependency for some packages
+
+# Optional: for production readiness
+gunicorn==21.2.0  # WSGI server for production

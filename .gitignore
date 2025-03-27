@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+migrations/
+media/
+staticfiles/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+Dockerfile.*
+*.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+pytest_cache/
+*.pytest_cache
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.tmp
