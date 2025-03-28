@@ -15,6 +15,10 @@ class User:
     @staticmethod
     def find_by_username(username):
         return users_col.find_one({"username": username})
+    
+    @staticmethod
+    def find_by_email(email):
+        return users_col.find_one({"email": email})
 
     @staticmethod
     def find_by_id(user_id):
